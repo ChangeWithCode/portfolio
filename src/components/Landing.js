@@ -5,7 +5,7 @@ const Landing = () => {
 
     return (  
 
-    <><div class="px-4 py-5 my-5 col-xxl-12 text-center">
+    <><div class="px-1 py-2 my-5 col-xxl-12 text-center">
             <img class="d-block mx-auto mb-5 f-r" src={require('../images/1.png')} alt="" width="172" height="157" />
             <h1 class="display-5 fw-bold f-l">Hi, I'm Muhammad Qasim AKA Mystery</h1>
             <div class="col-lg-6 mx-auto">

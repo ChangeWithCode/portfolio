@@ -1,9 +1,9 @@
 const Projects = () => {
     return (
 
-        <div class="container px-4 py-5 my-5 col-xxl-10 text-center">
+        <div class="container px-1 py-2 col-xxl-10 text-center overflow-hidden">
                 
-                <h1 class="display-5 fw-bold mb-5">My Recent Projects</h1>
+                <h1 class="display-5 fw-bold mt-4">My Recent Projects</h1>
 
 
 <section class="blog-area pb-5">
