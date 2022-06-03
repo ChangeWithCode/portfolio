@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+body, html { overflow-x:hidden; }
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,341 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-item > a:hover
+{
+  color: black !important;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.25rem !important;
+}
+
+.active
+{
+  color: black !important;
+  background-color: rgb(0, 0, 0);
+  border-radius: 0.25rem !important;
+}
+
+
+.f-r{
+    color: #fff;
+    animation: fadeInRight 1s ease-in-out;
+    
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .f-l{
+    color: rgb(0, 0, 0);
+    animation: fadeInLeft 1s ease-in-out;
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateY(300px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  #root > div > div.container.col-xxl-8.px-4.py-5 > div > div:nth-child(n) > div:nth-child(n) > div > div
+{
+    
+    
+  border-radius: 1.25rem !important;
+   
+}
+
+.progress
+{
+height: 1.5rem !important;
+border-radius: 1.25rem !important;
+}  
+
+.skills
+{
+  margin-top: 4rem !important;
+}
+
+.card-img-top
+{
+  object-fit: contain;
+}
+
+.card:hover
+{
+  background-color: #212529;
+  color: yellow;
+}
+
+
+@media (max-width:1000px){
+  .col-3{
+      width: 100% !important;
+  }
+}
+
+
+/*===== BLOG STYLE ONE =====*/
+.blog-style-one {
+  margin-top: 50px;
+}
+.blog-style-one .blog-image {
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+}
+.blog-style-one .blog-image .category {
+  background-color: #0a58ca;
+  color: white;
+  font-size: 13px;
+  padding: 7px 20px;
+  position: absolute;
+  text-decoration: none;
+  right: 20px;
+  top: 20px;
+  border-radius: 30px;
+}
+.blog-style-one .blog-image img {
+  width: 100%;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -ms-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+}
+.blog-style-one .blog-image:hover img {
+  -webkit-transform: rotate(1deg) scale(1.1);
+  -moz-transform: rotate(1deg) scale(1.1);
+  -ms-transform: rotate(1deg) scale(1.1);
+  -o-transform: rotate(1deg) scale(1.1);
+  transform: rotate(1deg) scale(1.1);
+}
+.blog-style-one .blog-content {
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 0 0 8px 8px;
+  border-top: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-style-one .blog-content {
+    padding: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .blog-style-one .blog-content {
+    padding: 20px;
+  }
+}
+.blog-style-one .blog-content .blog-title {
+  display: block;
+  margin-bottom: 10px;
+}
+.blog-style-one .blog-content .blog-title a {
+  font-weight: 600;
+  color: black;
+  text-decoration: none !important;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  line-height: 30px;
+}
+@media (max-width: 767px) {
+  .blog-style-one .blog-content .blog-title a {
+    line-height: 24px;
+  }
+}
+.blog-style-one .blog-content .blog-title a:hover {
+  color: var(--primary);
+}
+.blog-style-one .blog-content span {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark-3);
+  margin-top: 8px;
+  margin-right: 12px;
+  display: inline-block;
+}
+.blog-style-one .blog-content .text {
+  color: var(--dark-3);
+  margin-top: 16px;
+}
+.blog-style-one .blog-content .more {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--primary);
+  margin-top: 30px;
+  display: inline-block;
+}
+.blog-style-one .blog-content .more:hover {
+  color: var(--primary-dark);
+}
+
+
+
+
+
+.blog-content:hover
+
+{
+  background-color: #212529;
+  color: yellow;
+}
+
+
+div > div.blog-content > h5 > a:hover
+
+{
+  background-color: #212529;
+  color: yellow;
+}
+
+
+/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Kalam&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.wrapper {
+    max-width: 850px;
+    margin: 50px auto;
+    height: 600px;
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 5px 25px 35px #3535356b;
+}
+
+.wrapper .bg-yellow {
+    background-color: #000000;
+    height: 100%;
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+
+.wrapper .bg-yellow .text-white {
+    font-size: 3rem;
+}
+
+.wrapper .bg-yellow .cursive {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+
+}
+
+.wrapper .contact-form {
+    width: 100%;
+    padding: 40px 80px 40px 50px;
+}
+
+.wrapper .contact-form .h3 {
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.wrapper .contact-form label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.wrapper .contact-form textarea {
+    height: 120px;
+}
+
+.wrapper .contact-form .form-control {
+    background-color: #e7e7e7;
+    box-shadow: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    border-top: 1px solid #bbb;
+}
+
+
+.wrapper .contact-form .btn {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.wrapper .contact-form .btn.btn-default {
+    color: #F50057;
+}
+
+
+.wrapper .contact-form .btn.btn-primary {
+    background: #F50057;
+    border: none;
+    padding: 8px 18px;
+    box-shadow: 0 8px 12px #3535356b;
+}
+
+.wrapper .contact-form .btn.btn-primary:hover {
+    background-color: #f50056e5;
+}
+
+.modal .modal-content .modal-header .fas {
+    color: #F50057;
+}
+
+@media(max-width: 900.5px) {
+    .wrapper {
+        margin: 20px;
+    }
+}
+
+@media(max-width: 575.5px) {
+
+    .wrapper .contact-form {
+        padding: 40px;
+    }
+
+    .wrapper .bg-yellow {
+        padding-left: 30px;
+    }
+}
+
+@media(max-width: 496px) {
+
+    .wrapper .bg-yellow {
+        display: none;
+    }
+
+}
+
+@media(max-width: 350px) {
+
+    .wrapper {
+        height: 570px;
+    }
+
+    .wrapper .contact-form {
+        padding: 20px;
+    }
 }
