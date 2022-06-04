@@ -17,7 +17,7 @@ const Services = () => {
 </div>
 
 
-<div class="col-3 mb-2 overflow-hidden">
+<div class="col-3 mb-5 overflow-hidden">
   <div class="card p-2">
     <img src={require('../images/r.png')} class="card-img-top" width="64" height="64" alt="..."/>
     <div class="card-body">
@@ -28,7 +28,7 @@ const Services = () => {
 </div>
 
 
-<div class="col-3  mb-2 overflow-hidden">
+<div class="col-3  mb-5 overflow-hidden">
   <div class="card p-2">
     <img src={require('../images/h.png')} class="card-img-top" width="64" height="64" alt="..."/>
     <div class="card-body">
@@ -39,7 +39,7 @@ const Services = () => {
 </div>
 
 
-<div class="col-3 overflow-hidden">
+<div class="col-3 mb-5  overflow-hidden">
   <div class="card p-2">
     <img src={require('../images/c.png')} class="card-img-top" width="64" height="64" alt="..."/>
     <div class="card-body">
@@ -50,9 +50,9 @@ const Services = () => {
 </div>
 
 </div>
-<div class="row text-center skills overflow-hidden">
+<div class="row text-center overflow-hidden">
 
-            <div class="col-3 mb-2 overflow-hidden ">
+            <div class="col-3 mb-5 overflow-hidden ">
   <div class="card p-2">
     <img src={require('../images/w.png')} class="card-img-top" width="64" height="64" alt="..."/>
     <div class="card-body">
@@ -63,7 +63,7 @@ const Services = () => {
 </div>
 
 
-<div class="col-3  mb-2 overflow-hidden">
+<div class="col-3  mb-5 overflow-hidden">
   <div class="card p-2">
     <img src={require('../images/e.png')} class="card-img-top" width="64" height="64" alt="..."/>
     <div class="card-body">
@@ -74,7 +74,7 @@ const Services = () => {
 </div>
 
 
-<div class="col-3 mb-2 overflow-hidden">
+<div class="col-3 mb-5 overflow-hidden">
   <div class="card p-2">
     <img src={require('../images/j.png')} class="card-img-top" width="64" height="64" alt="..."/>
     <div class="card-body">
@@ -85,7 +85,7 @@ const Services = () => {
 </div>
 
 
-<div class="col-3 mb-2 overflow-hidden">
+<div class="col-3 mb-5 overflow-hidden">
   <div class="card p-2">
     <img src={require('../images/p.png')} class="card-img-top" width="64" height="64" alt="..."/>
     <div class="card-body">
