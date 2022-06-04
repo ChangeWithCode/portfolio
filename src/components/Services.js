@@ -3,7 +3,7 @@ const Services = () => {
 
         <div class="container px-1 py-2 col-xxl-10 text-center overflow-hidden">
                 
-            <h1 class="display-5 fw-bold mt-4">Things i can impress with</h1>
+            <h1 class="display-5 fw-bold mt-4 heading">Things i can impress with</h1>
             <div class="row text-center skills overflow-hidden">
 
             <div class="col-3 mb-5 ">

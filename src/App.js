@@ -6,13 +6,27 @@ import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import { createContext, useState } from "react";
+import Footer from './components/Footer';
+
+export const ThemeContext = createContext(null);
+
+
 function App() {
+
+  const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
   return (
     
-
+      
     <Router>
-    <Navbar />
-    <div className="content">
+      <div className="App" id={theme}>
+    <Navbar theme = {theme}  toggleTheme = {toggleTheme}/>
+  
           <Routes>
             <Route path="/" element={<Landing />}></Route>
             <Route path="/about" element={<About />}></Route>
@@ -20,8 +34,11 @@ function App() {
             <Route path="/projects" element={< Projects />}></Route>
             <Route path="/contact" element={< Contact />}></Route>
           </Routes>
+    <Footer/>
     </div>
 </Router>
+
+
 
 
   );

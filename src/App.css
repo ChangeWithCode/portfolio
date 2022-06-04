@@ -1,35 +1,87 @@
-.App {
-  text-align: center;
+html,body{ height:100%;}
+
+#light {
+  background-color: #ffffff;
 }
 
-
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+#dark {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+#dark .navbar {
+  background-color: #282c34 !important;
+}
+
+#dark .footer_text {
+  color :rgb(255, 255, 255) !important;
+}
+
+#light .footer_text {
+  color :rgb(0, 0, 0) !important;
+}
+
+#light .logo_main
+{
+  color :rgb(0, 0, 0) !important;
+}
+
+#dark .logo_main
+{
+  color :white !important;
+}
+
+
+#light .navbar {
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+
+#light .nav-link
+{
+  color: rgb(0, 0, 0) !important;
+}
+
+#light .nav-item > a:active
+{
+  color: white !important;
+}
+
+#dark .landing_heading
+{
+  color: rgb(255, 255, 255) !important;
+}
+
+#dark .landing_para
+{
+  color: rgb(255, 255, 255) !important;
+}
+
+
+#light .landing_heading
+{
+  color: rgb(0, 0, 0) !important;
+}
+
+#light .landing_para
+{
+  color: rgb(0, 0, 0) !important;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+#dark .heading
+{
+  color: rgb(255, 255, 255) !important;
+}
+
+#dark .about_para
+{
+  color: rgb(255, 255, 255) !important;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -47,12 +99,50 @@
   border-radius: 0.25rem !important;
 }
 
-.active
+#dark .active
 {
-  color: black !important;
+  color :#ffffff !important;
   background-color: rgb(0, 0, 0);
   border-radius: 0.25rem !important;
 }
+
+#dark .nav-item >a
+{
+  
+  color :#ffffff !important;
+
+}
+
+#dark .nav-item >a:hover
+{
+  background-color: rgb(0, 0, 0);
+  color :#ffffff !important;
+
+}
+
+
+#light .active
+{
+  background-color: rgb(0, 0, 0);
+  color :#ffffff !important;
+
+}
+
+#light .nav-item >a:active
+{
+  background-color: rgb(0, 0, 0);
+  color :#000000 !important;
+
+}
+
+#light .nav-item >a:hover
+{
+  background-color: rgb(0, 0, 0);
+  color :#ffffff !important;
+
+}
+
+
 
 
 .f-r{
